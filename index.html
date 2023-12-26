@@ -1,0 +1,525 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>e-commerce</title>
+    <!-- bootstrap link -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <!-- animate link -->
+    <link rel="stylesheet" href="css/animate.css">
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+    <!-- font awesome link -->
+    <link rel="stylesheet" href="css/all.min.css">
+    <!-- slick css link -->
+    <link rel="stylesheet" href="css/slick.css">
+    <!-- main css link -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- responsive link -->
+    <link rel="stylesheet" href="css/responsive.css">
+  </head>
+  <body class="bg-white">
+    <!-- navbar part start -->
+    <button class="btn" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasTop" aria-controls="offcanvasTop">
+      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-menu"><line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line></svg></button>
+          <div class="offcanvas offcanvas-hero h-100 bg-dark offcanvas-top" tabindex="-1" id="offcanvasTop" aria-labelledby="offcanvasTopLabel">
+            <div class="offcanvas-header d-flex justify-content-center align-items-center m-2">
+              <button type="button" class="close-button bg-transparent border-0" data-bs-dismiss="offcanvas" aria-label="Close">
+                <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="#ffffffff" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" class="feather feather-x"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg></button>
+            </div>
+        <div class="offcanvas-body main-offcanvas pt-0">
+          <div class="main-navbar d-flex flex-column align-items-center gap-4">
+            <div class="logo">
+              <a class="text-white" href="#">E-com</a>
+            </div>
+            <ul class="d-flex flex-column gap-4">
+              <li><a class="active" href="#">Home</a></li>
+              <li><a href="#">About</a></li>
+              <li><a href="#">Pages</a></li>
+              <li><a href="#">Blog</a></li>
+              <li><a href="#">Contact</a></li>
+            </ul>
+            <div class="navbar-icon">
+              <ul class="d-flex justify-content-between">
+                <li><a href="#"><i class="fa-solid fa-magnifying-glass"></i></a></li>
+                <li><a href="#"><i class="fa-solid fa-user"></i></a></li>
+                <li><a href="#"><i class="fa-solid fa-cart-shopping"></i></a></li>
+            </ul> 
+            </div>
+          </div>
+        </div>
+      </div>
+    <!-- navbar part End -->
+    <!-- banner part start -->
+    <section id="banner" class="bg-white pb-2">
+      <div class="container">
+        <div class="row">
+          <div class="banner-slide position-relative">
+            <div class="col-12 mx-1">
+              <div class="row">
+                <div class="col-12 col-md-6 order-2 order-md-1">
+                  <div class="banner-text w-100 h-100 d-flex flex-column justify-content-center align-items-center align-items-sm-start">
+                    <h1 class="text-center text-sm-start">Jacobline <span class="d-block ps-0 ps-md-5">Masterpiece</span></h1>
+                    <p class="text-center text-sm-start">Diam sit eu nibh feugiat augue laoreet pellentesque quis dolor. Hendrerit ut mauris id montesui mauris enim viverra. Nisl senectus cursus curesus eget in. Dui urna soles egestas id nulla aenean ultricies. Tortor augue ac id imperdiet metus insit tortor.</p>
+                    <div class="common-btn">
+                      <a href="#">Shop now</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-12 col-md-6 mb-4 mb-md-0 order-1 order-md-2">
+                  <div class="banne-image">
+                    <img class="img-fluid w-100" src="image/banner-1.png" alt="banner car">
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 mx-1">
+              <div class="row">
+                <div class="col-12 col-md-6 order-2 order-md-1">
+                  <div class="banner-text w-100 h-100 d-flex flex-column justify-content-center align-items-center align-items-sm-start">
+                    <h1 class="text-center text-sm-start">Jacobline <span class="d-block ps-0 ps-md-5">Masterpiece</span></h1>
+                    <p class="text-center text-sm-start">Diam sit eu nibh feugiat augue laoreet pellentesque quis dolor. Hendrerit ut mauris id montesui mauris enim viverra. Nisl senectus cursus curesus eget in. Dui urna soles egestas id nulla aenean ultricies. Tortor augue ac id imperdiet metus insit tortor.</p>
+                    <div class="common-btn">
+                      <a href="#">Shop now</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-12 col-md-6 mb-4 mb-md-0 order-1 order-md-2">
+                  <div class="banne-image">
+                    <img class="img-fluid w-100" src="image/banner-1.png" alt="banner car">
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 mx-1">
+              <div class="row">
+                <div class="col-12 col-md-6 order-2 order-md-1">
+                  <div class="banner-text w-100 h-100 d-flex flex-column justify-content-center align-items-center align-items-sm-start">
+                    <h1 class="text-center text-sm-start">Jacobline <span class="d-block ps-0 ps-md-5">Masterpiece</span></h1>
+                    <p class=" text-center text-sm-start">Diam sit eu nibh feugiat augue laoreet pellentesque quis dolor. Hendrerit ut mauris id montesui mauris enim viverra. Nisl senectus cursus curesus eget in. Dui urna soles egestas id nulla aenean ultricies. Tortor augue ac id imperdiet metus insit tortor.</p>
+                    <div class="common-btn">
+                      <a href="#">Shop now</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-12 col-md-6 mb-4 mb-md-0 order-1 order-md-2">
+                  <div class="banne-image">
+                    <img class="img-fluid w-100" src="image/banner-1.png" alt="banner car">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- banner part End -->
+    <!-- our service part start -->
+    <section id="service" class="bg-white">
+      <div class="container">
+        <div class="row service-content border-top border-bottom border-secondary-subtle py-2">
+         <div class="col-12 col-sm-4 border-end border-secondary-subtle">
+          <div class="service-item text-center">
+            <img src="image/s-icon.png" alt="">
+            <h5>Money Back</h5>
+            <p>100% money back guarantee</p>
+          </div>
+         </div>
+         <div class="col-12 col-sm-4 pt-3 pt-sm-0 border-end border-secondary-subtle">
+          <div class="service-item text-center">
+            <img src="image/s-iocn-2.png" alt="">
+            <h5>FREE SHIPPING & RETURN</h5>
+            <p>On all orders over $99</p>
+          </div>
+         </div>
+         <div class="col-12 col-sm-4 pt-3 pt-sm-0">
+          <div class="service-item text-center">
+            <img src="image/s-icon-3.png" alt="">
+            <h5>SUPPORT 24/7</h5>
+            <p>Our team is always for support</p>
+          </div>
+         </div>
+        </div>
+      </div>
+    </section>
+    <!-- our service part End -->
+    <!-- trending part start -->
+    <section id="trending">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <div class="main-header common-btn-2 d-flex justify-content-between align-items-center flex-column flex-sm-row gap-2 gap-sm-0">
+              <div class="common-heading">
+                <h2>Trending Now</h2>
+              </div>
+              <button>
+                <span>view shop</span>
+                <span><i class="fa-solid fa-arrow-right right-arrow p-0 m-0" ></i></span>
+              </button>
+            </div>
+          </div>
+          <div class="col-12 mt-3">
+              <div class="row">
+                <div class="trending-slider position-relative">
+                  <div class="col mx-2">
+                    <div class="card h-100 border-0">
+                      <img src="image/rectangle-1.png" class="card-img-top rounded-0" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">Soft neutral headset</h5>
+                        <span><a href="#">Add to Card</a></span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col mx-2">
+                    <div class="card h-100 border-0">
+                      <img src="image/rectangle-2.png" class="card-img-top rounded-0
+                      " alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">fresh Looking Cherries</h5>
+                        <span>$32.00</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col mx-2">
+                    <div class="card h-100 border-0">
+                      <img src="image/rectangle-3.png" class="card-img-top rounded-0" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">Magical Handler Chair</h5>
+                        <span>$29.00</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col mx-2">
+                    <div class="card h-100 border-0">
+                      <img src="image/rectangle-2.png" class="card-img-top rounded-0" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">Magical Handler Chair</h5>
+                        <span>$29.00</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- trending part End -->
+    <!-- category part start -->
+    <section id="category">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+             <div class="category-content">
+              <div class="row row-cols-1 row-cols-sm-2 g-4">
+                <div class="col">
+                  <div class="card h-100 border-0">
+                    <div class="overly">
+                      <h4>Newly Arrivals</h4>
+                      <div class="common-btn-2">
+                        <button>
+                            <span>shop now</span>
+                            <span><i class="fa-solid fa-arrow-right right-arrow p-0 m-0" ></i></span>
+                        </button>
+                      </div>
+                    </div>
+                    <img src="image/banner-2.png" class="card-img-top img-fluid w-100 rounded-0" alt="...">
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card h-100 border-0">
+                    <div class="overly">
+                      <h4>Best Sellers</h4>
+                      <div class="common-btn-2">
+                          <button>
+                             <span>shop now</span>
+                             <span><i class="fa-solid fa-arrow-right right-arrow p-0 m-0" ></i></span>
+                          </button>
+                      </div>
+                    </div>
+                    <img src="image/banner-3.png" class="card-img-top img-fluid w-100 rounded-0
+                    " alt="...">
+                  </div>
+                </div>
+              </div>
+             </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- category part End -->
+    <!-- about us part start -->
+    <section id="about">
+      <div class="container">
+        <div class="row">
+           <div class="col-12">
+            <div class="about-text text-center">
+              <div class="common-heading d-flex flex-column align-items-center">
+                <h2>Since 1980’s</h2>
+                <p>Ac varius lectus tellus tellus quisque tristique aenean. Volutpat velit nulla eu iaculis risus in urna. Eu morbi vel purus velit dui vel egestas purus sed. Eget turpis tincidunt faucibus montes arcu in nullam tortor orci. Nulla tellus sed purus vestibulum sagittis pretium donec nec mattis ollis porta sit ut. <span class="d-block pt-2"> Facilisi ut vulputate volutpat a aliquet. Facilisis sed quis pretium amet hac. Justo tristique sagittis sodales viverra venenatis integer fringilla.</span></p>
+                <div class="common-btn-2">
+                  <button>
+                     <span>About us</span>
+                     <span><i class="fa-solid fa-arrow-right right-arrow p-0 m-0" ></i></span>
+                  </button>
+               </div>
+              </div>
+            </div>
+           </div>
+        </div>
+      </div>
+    </section>
+    <!-- about us part End -->
+    <!-- offer part start -->
+    <section id="trending offer">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <div class="main-header common-btn-2 d-flex  flex-column gap-2 flex-sm-row gap-sm-0 justify-content-between align-items-center">
+              <div class="common-heading">
+                <h2>Items with offer</h2>
+              </div>
+              <button>
+                <span>view shop</span>
+                <span><i class="fa-solid fa-arrow-right right-arrow p-0 m-0" ></i></span>
+              </button>
+            </div>
+          </div>
+          <div class="col-12 mt-3">
+             <div class="row">
+              <div class="trending-slider position-relative">
+                <div class="col mx-2">
+                  <div class="card h-100 border-0">
+                    <img src="image/rectangle-4.png" class="card-img-top rounded-0" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Mindblowing Headset</h5>
+                      <span>$58.00</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="col mx-2">
+                  <div class="card h-100 border-0">
+                    <img src="image/rectangle-5.png" class="card-img-top rounded-0
+                    " alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Boxed water is good</h5>
+                      <span>$32.00</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="col mx-2">
+                  <div class="card h-100 border-0">
+                    <img src="image/rectangle-6.png" class="card-img-top rounded-0" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Super Duper Toy car</h5>
+                      <span>$29.00</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="col mx-2">
+                  <div class="card h-100 border-0">
+                    <img src="image/rectangle-5.png" class="card-img-top rounded-0" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Super Duper Toy car</h5>
+                      <span>$29.00</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- offer part End -->
+    <!-- latest part Start -->
+    <section id="latest">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <div class="common-heading text-center pb-4">
+              <h2>Latest posts</h2>
+            </div>
+          </div>
+          <div class="col-12">
+            <div class="row latest-item d-flex align-items-center gap-4 gap-sm-0">
+              <div class="col-12 col-sm-5">
+                <div class="inner-img">
+                  <img src="image/rectangle-7.png" class="img-fluid w-100" alt="">
+                </div>
+              </div>
+              <div class="col-12 col-sm-7 d-flex justify-content-center">
+                <div class="inner-text ">
+                  <p>Feb 22-Fashion</p>
+                  <span>How to look unique than other peoples</span>
+                </div>
+              </div>
+            </div>
+            <div class="row latest-item d-flex align-items-center gap-4 gap-sm-0">
+              <div class="col-12 col-sm-5">
+                <div class="inner-img">
+                  <img src="image/rectangle-8.png" class="img-fluid w-100" alt="">
+                </div>
+              </div>
+              <div class="col-12 col-sm-7 d-flex justify-content-center">
+                <div class="inner-text ">
+                  <p>Feb 22-Fashion</p>
+                  <span>How to look unique than other peoples</span>
+                </div>
+              </div>
+            </div>
+            <div class="row latest-item d-flex align-items-center gap-4 gap-sm-0">
+              <div class="col-12 col-sm-5">
+                <div class="inner-img">
+                  <img src="image/rectangle-9.png" class="img-fluid w-100" alt="">
+                </div>
+              </div>
+              <div class="col-12 col-sm-7 d-flex justify-content-center">
+                <div class="inner-text ">
+                  <p>Feb 22-Fashion</p>
+                  <span>How to look unique than other peoples</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-12">
+            <div class="common-btn-2 d-flex justify-content-center mt-5">
+              <button>
+                <span>view shop</span>
+                <span><i class="fa-solid fa-arrow-right right-arrow p-0 m-0" ></i></span>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- latest part End -->
+    <!-- instagram part start -->
+    <section id="instagram">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <div class="common-heading">
+              <h2>@e-com on Instagram</h2>
+            </div>
+          </div>
+          <div class="col-12 pt-2">
+            <div class="row row-cols-2 row-cols-sm-4 g-4">
+              <div class="col">
+                <div class="card h-100 border-0">
+                  <img src="image/rectangle-10.png" class="card-img-top img-fluid w-100 rounded-0" alt="...">
+                </div>
+              </div>
+              <div class="col">
+                <div class="card h-100 border-0">
+                  <img src="image/rectangle-11.png" class="card-img-top img-fluid w-100 rounded-0" alt="...">
+                </div>
+              </div>
+              <div class="col">
+                <div class="card h-100 border-0">
+                  <img src="image/rectangle-12.png" class="card-img-top img-fluid w-100 rounded-0" alt="...">
+                </div>
+              </div>
+              <div class="col">
+                <div class="card h-100 border-0">
+                  <img src="image/rectangle-13.png" class="card-img-top img-fluid w-100 rounded-0" alt="...">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- instagram part End -->
+    <!-- email part start -->
+    <section id="email">
+      <div class="container">
+        <div class="row">
+          <div class="main-email text-center">
+            <h5>e-com</h5>
+            <p>Subscribe to our newsletter to get special offers.</p>
+             <form>
+              <input class="border-0 form-control" type="text"  placeholder="Your e-mail address here">
+              <button class="border-0">Subscribe</button>
+             </form>
+             <ul>
+              <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
+              <li><a href="#"><i class="fa-brands fa-pinterest"></i></a></li>
+              <li><a href="#"><i class="fa-brands fa-xbox"></i></a></li>
+              <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+              <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+              <li><a href="#"><i class="fa-brands fa-youtube"></i></a></li>
+             </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- email part End -->
+    <!-- footer part start -->
+    <section id="footer">
+      <div class="container-md">
+        <div class="row footer-content  border-top border-bottom border-secondary-subtle">
+          <div class="col-12 col-sm-5 col-lg-6 border-end border-secondary-subtle order-2 order-sm-1">
+            <div class="contact-part py-3 py-md-0">
+              <h6>contact us</h6>
+              <ul>
+                <li class="d-block"><a href="#">e-com11@gmail.com</a></li>
+                <li class="d-block"><a href="#">USA +9 123 321 1234</a></li>
+                <li class="d-block"><a href="#">UK  +22 123 321 1234</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-12 col-sm-7 col-lg-6 order-1 order-sm-2">
+            <div class="footer-navbar">
+              <div class="quick-link pt-3 pt-md-0">
+                <h6>Quick link</h6>
+                <ul>
+                  <li><a href="#">Home</a></li>
+                  <li><a href="#">About</a></li>
+                  <li><a href="#">Contact</a></li>
+                </ul>
+              </div>
+              <div class="Help pt-3 pt-md-0">
+                <h6>Help</h6>
+                <ul>
+                  <li><a href="#">FAQ's</a></li>
+                  <li><a href="#">Shippings & returns</a></li>
+                  <li><a href="#">Support</a></li>
+                </ul>
+              </div>
+              <div class="Condition pt-3 pt-md-0">
+                <h6>Terms & Condition</h6>
+                <ul>
+                  <li><a href="#">Terms</a></li>
+                  <li><a href="#">Privacy</a></li>
+                  <li><a href="#">Cookies</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+        <div class="copyright text-center py-3 mt-3 shadow-lg">
+          <span>copyright@2023 design by Hasibur</span>
+          <a href="#">view more design</a>
+        </div>
+    </section>
+    <!-- footer part End -->
+    <!-- jquery link -->
+    <script src="js/code.jquery.com_jquery-1.12.4.min.js"></script>
+    <!-- bootstrap js link -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <!-- wow js -->
+    <script src="js/wow.min.js"></script>
+    <!-- font awesome -->
+    <script src="js/all.min.js"></script>
+    <!-- slick js link -->
+    <script src="js/slick.min.js"></script>
+    <!-- main js link -->
+    <script src="js/script.js"></script>
+  </body>
+</html>

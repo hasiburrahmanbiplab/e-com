@@ -1,0 +1,131 @@
+@media (min-width:1400px) {
+    .banner-text h1 {
+        font-size: 70px;
+    }
+    .banner-slide .right-arrow {
+        right: 45%;
+        transform: translateX(-45%);
+    }
+    .trending-slider .left-arrow {
+        right: 50%;
+        transform: translateX(-50%);
+    }
+    .trending-slider .right-arrow {
+        right: 45%;
+        transform: translateX(-45%);
+    }
+}
+@media (min-width:1200px) and (max-width:1399.99px) {
+    .banner-text h1 {
+        font-size: 60px;
+    }
+    .banner-slide .right-arrow {
+        right: 45%;
+        transform: translateX(-45%);
+    }
+    .trending-slider .left-arrow {
+        right: 50%;
+        transform: translateX(-50%);
+    }
+    .trending-slider .right-arrow {
+        right: 45%;
+        transform: translateX(-45%);
+    }
+}
+@media (min-width:992px) and (max-width:1199.99px) {
+    .banner-slide .right-arrow {
+        right: 45%;
+        transform: translateX(-45%);
+    }
+    .trending-slider .left-arrow {
+        right: 50%;
+        transform: translateX(-50%);
+    }
+    .trending-slider .right-arrow {
+        right: 44%;
+        transform: translateX(-44%);
+    }
+}
+@media (min-width:576px) and (max-width:767px) {
+    .common-heading h2 {
+        font-size: 30px;
+    }
+    /* banner part */
+    .banner-text h1 {
+        font-size: 45px;
+    }
+    #banner {
+        margin-bottom: 38px;
+    }
+    .common-btn{
+        margin-bottom: 10px;
+    }
+    /* service part */
+    #service {
+        margin: 40px 0 60px;
+    }
+    #about .about-text {
+        width: 100%;
+        margin: 0 auto;
+    }
+}
+@media (max-width:575px) {
+    .common-heading h2 {
+        font-size: 30px;
+    }
+    .banner-text h1 {
+        font-size: 45px;
+    }
+    #banner {
+        margin-bottom: 38px;
+    }
+    #about .about-text {
+        width: 100%;
+        margin: 0 auto;
+    }
+    /* service part start */
+    #service {
+        margin: 40px 0 50px;
+    }
+    /* latest post */
+    #latest {
+        background: #ffffff;
+        margin: 70px 0;
+    }
+    #latest .latest-item {
+        width: 100%;
+        text-align: center;
+        padding: 10px 0;
+    }
+    /* category part start */
+    #category {
+        background: #ffffff;
+        margin: 90px 0 60px;
+    }
+    /* email  part */
+    #email {
+        background: #ffffff;
+        margin-bottom: 50px;
+    }
+    .main-email form {
+        width: 300px;
+    }
+    .main-email ul {
+        width: 260px;
+    }
+    /* footer part start */
+    .footer-navbar{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .footer-content h6{
+        display: inline-block;
+    }
+    .copyright{
+        background: var(--btext);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 5px;
+      }
+}
