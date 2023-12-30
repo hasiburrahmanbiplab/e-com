@@ -578,8 +578,7 @@ p{
     font-size: 14px;
     font-family: var(--font-family);
     font-weight: 400;
-}
-.copyright a:hover{
-    color: yellow;
+    color: rgb(250, 172, 4);
+
 }
 /* footer part End */
